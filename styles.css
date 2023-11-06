@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #e2eef7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 15px;
+}
+h1{
+    color: rgb(13, 113, 146);
+    margin-bottom: 30px;
+}
+.textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+textarea{
+    border-radius: 5px;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    padding:10px 10px;
+}
+small{
+    color: red;
+    display: none;
+}
+input{
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+#scrambleOption{
+    background-color: #fff;
+    padding: 5px;
+}
+#scrambleOption > option{
+    margin: 10px;
+    background-color: #fff;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#censorButton{
+    padding: 8px 24px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(13, 113, 146);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#clearButton{
+    padding: 8px 24px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(240, 14, 14);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#censorButton:hover{
+    background-color: #e2eef7;
+    color:  rgb(13, 113, 146);
+}
+#clearButton:hover{
+    background-color: #e2eef7;
+    color: rgb(240, 14, 14);
+}
+#censoredOutput{
+    color: rgb(13, 113, 146);
+}
+p{
+    margin-bottom: 15px;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Text Censorship</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="center">
+        <h1>Dynamic Text Censorship</h1>
+        <div class="textarea">
+          <textarea id="inputText" placeholder="Enter text here"></textarea>
+          <small id="empty">Field cannot be empty</small>
+        </div>
+        <input id="censorWords" placeholder="Enter words to censor (space-separated)" />
+        <div class="scrambleOption">
+          <p>Select Your Preferred Scrambling Option:
+            <select name="" id="scrambleOption">
+              <option value="?">?</option>
+              <option value="*">*</option>
+              <option value="-">-</option>
+              <option value="_">_</option>
+            </select>
+          </p>
+        </div>
+        <div class="buttons">
+          <button id="censorButton">Censor</button>
+          <button id="clearButton">Clear</button>
+        </div>
+        
+        <p><strong>Censored Text: <span id="censoredOutput"></span></strong></p>
+        <p><strong>No of Words: <span id="wordsScanned"></span></strong></p>
+        <p><strong>No of Words Scrambbled: <span id="noWordsScambled"></span></strong></p>
+        <p><strong>Time Taken: <span id="timeTaken"></span></strong></p>
+
+    </div>
+  </div>
+  <script>
+          
+  </script>
+</body>
+</html>
+
